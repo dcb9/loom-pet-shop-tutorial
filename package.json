@@ -4,12 +4,13 @@
   "private": true,
   "dependencies": {
     "antd": "^3.8.2",
+    "loom-js": "^1.17.0",
+    "loom-truffle-provider": "^0.5.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.4",
-    "loom-js": "^1.17.0",
-    "loom-truffle-provider": "^0.5.0",
-    "truffle": "^4.1.14"
+    "truffle": "^4.1.14",
+    "web3": "^1.0.0-beta.35"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,7 +21,6 @@
     "loom:init": "./loom init",
     "loom:run": "./loom run",
     "migrate": "yarn truffle migrate --network=loom_dapp_chain",
-    "migrate:reset": "yarn truffle migrate --reset --network=loom_dapp_chain",
-    "eject": "react-scripts eject"
+    "migrate:reset": "yarn truffle migrate --reset --network=loom_dapp_chain"
   }
 }
